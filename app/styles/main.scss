@@ -218,3 +218,51 @@ body {
     }
   }
 }
+body{
+  background-color: #E3E3E3;
+}
+.tab-stickers {
+
+    margin-top: 30px;
+
+    .shadow{
+      box-shadow: 2px 2px 2px 2px #656060;
+      padding: 0;
+      background-color: #FFFFFF;
+    
+      .sticker{
+        width: 100%;
+        border-bottom: 2px solid #D8D8D8;  
+      } 
+    }
+
+    .gray{
+      color:#848484;
+      padding-left: 15px;
+    }
+
+    .name{
+      font-size: 16px;
+      font-style: bold;
+      padding-top: 15px;
+      padding-left: 15px;
+
+    } 
+      
+    .pay{
+      background-image: url('../images/elementos/spritePayPal.png'); 
+      background-repeat: no-repeat;
+      position: relative;
+      width: 25px;
+      height: 45px;
+      right: 20px;
+      top: 20px;
+    }
+
+    .mg{
+      margin-top: 2%;
+    }
+
+    
+
+}
