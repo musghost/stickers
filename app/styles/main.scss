@@ -2,6 +2,7 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 .wrapper-header {
@@ -88,4 +89,20 @@ body {
 
 .borde {
   padding:0;
+}
+
+.site-pagination {
+  .pagination {
+    & > li {
+      & > a {
+        background: none;
+        border:none;
+        color: gray;
+      }
+      & > a:hover {
+        background-color: gray;
+        color: white;
+      }
+    }
+  }
 }
