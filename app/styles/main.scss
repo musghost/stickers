@@ -2,6 +2,7 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 .wrapper-header {
@@ -19,6 +20,89 @@ $icon-font-path: '../fonts/';
     }
     a {
       color: #C1C1C1;
+    }
+  }
+}
+
+/*clases para el header*/
+body {
+  background-color: #e3e3e3;  
+}
+
+.gray {
+  color: gray;
+}
+
+.pad {
+  padding:0 30px;
+}
+
+.header{
+  box-shadow: 0px 5px 3px -2px rgba(0,0,0,0.75);
+  margin-top: 5%;
+  background-color: white;
+}
+
+.descri {
+  font-size: 18px;
+  margin-top: 50px;
+  color: gray;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 65px;
+  font-weight: bold;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+.cu {
+  font-size: 40px;
+}
+
+.btncomprar {
+  border-radius: 5px;
+  padding:9px;
+  border:none;
+  background-color: orange;
+  color: white;
+  width:50%;
+  font-weight: bold;
+  box-shadow: 0px 3px 3px 0px rgba(148,148,148,1);
+  
+  .crop {
+    display: inline-block;
+    width: 13px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: baseline;
+    margin-right: 5px;
+    height: 13px;
+
+    img {
+    height:14px;
+    position: absolute;
+    right: 0;
+    }
+  }
+}
+
+.borde {
+  padding:0;
+}
+
+.site-pagination {
+  .pagination {
+    & > li {
+      & > a {
+        background: none;
+        border:none;
+        color: gray;
+      }
+      & > a:hover {
+        background-color: gray;
+        color: white;
+      }
     }
   }
 }
