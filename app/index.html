@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>webapp</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="styles/main.css">    
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://use.fontawesome.com/13506fe278.js"></script>
   </head>
   <body>
     <div class="wrapper-header">
@@ -17,16 +18,24 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li ><img src="/images/s.png"></li>
+              <li>
+                <img src="/images/s.png">
+              </li>
             </ul>
             <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <button type="submit" class="btn btn-default">Submit</button>
-                <input type="text" class="form-control" placeholder="Search">
-              </div>              
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </span>
+                <input type="text" class="form-control" size="90" placeholder="Search">
+              </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Contacto</a></li>
+              <li>
+                <a href="#"><span class="txt-contact">CONTACTO</span></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -34,24 +43,23 @@
       <div class="tabs-nav">
         <ul class="nav nav-tabs">
           <li>
-            <a>Populares</a>
+            <a href="#">Populares</a>
           </li>
           <li>
-            <a>Troquelados</a>
+            <a href="#">Troquelados</a>
           </li>
           <li>
-            <a>Geométricos</a>
+            <a href="#">Geométricos</a>
           </li>
           <li>
-            <a>Transferibles</a>
+            <a href="#">Transferibles</a>
           </li>
           <li>
-            <a>Hojas</a>
+            <a href="#">Hojas</a>
           </li>
         </ul>
       </div>
-    </div>
-    
+    </div>    
     <!--header con imagen-->
     <div class="container">
       <div class="row header">
@@ -70,37 +78,460 @@
           </div>
         </div>
       </div>
+    </div>  
+    <!-- pagination -->
+    <div class="text-center site-pagination">
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#">Siguiente</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  
-  <!-- pagination -->
-  <div class="text-center site-pagination">
-    <nav aria-label="Page navigation">
-      <ul class="pagination">
-        <li>
-          <a href="#" aria-label="Previous">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">6</a></li>
-        <li><a href="#">7</a></li>
-        <li><a href="#">8</a></li>
-        <li><a href="#">9</a></li>
-        <li><a href="#">10</a></li>
-        <li><a href="#">Siguiente</a></li>
-        <li>
-          <a href="#" aria-label="Next">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  
+    <div class="footer">
+      <footer>
+        <div>
+          <a href="#" class="image-fb"></a>
+          <a href="#"  class="image-tt"></a>
+        </div>
+        <hr>
+        <h5>Stickers.mx</h5>
+      </footer>
+    </div>
+    <div class="container tab-stickers">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/postre.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Yummy Lab</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/cereza.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Miss S</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/zorro2.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Zorro</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/bigote.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Mr. Mister</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 "> 
+                <div class="pay"></div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="row mg">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/navidad.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Yummy Lab</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/ups.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Miss S</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/navidad2.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Zorro</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/tigre.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Mr. Mister</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mg">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/hola.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Yummy Lab</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/corona.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Miss S</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+               <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/cerveza.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Zorro</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/unicornio.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Mr. Mister</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mg">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/bebe.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Yummy Lab</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/gato.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Upsi</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+               <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/hipster.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Zorro</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/zombie.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Kitty</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mg">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/zorro.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">X+ 2016</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/ballena.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Upsi</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+               <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/cafe.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Kitty</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/galleta.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Kitty</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 "> 
+                <div class="pay"></div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mg">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/picnic.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Yummy Lab</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/arcoiris.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Miss S</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+               <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/fork.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Zorro</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/dino2.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Mr. Mister</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mg">
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/dino.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Yummy Lab</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/fantasma.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Upsi</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/dona.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Zorro</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="caja shadow">
+            <img src="images/elementos/zapatos.png" alt="sticker" class="sticker">
+            <div class="row">
+              <div class="col-md-10">
+                <p class="name">Kitty</p>
+                <p class="gray">50 piezas - $200</p>
+              </div>
+              <div class="col-md-2 ">  
+                <div class="pay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>    
   </body>
 </html>

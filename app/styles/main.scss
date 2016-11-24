@@ -6,6 +6,18 @@ $icon-font-path: '../fonts/';
 // endbower
 
 .wrapper-header {
+  padding-top: 15px;
+  background-color: white;
+
+  form > div > input {
+    background-color: #EDEEF0;
+    border: none;
+  }
+
+  form > div > span > button {
+    background-color: #EDEEF0;
+    border: none;
+  }
 
   .navbar-default {
     background-color: white;
@@ -13,13 +25,113 @@ $icon-font-path: '../fonts/';
   }
 
   .tabs-nav {
-    .nav-tabs > li > a:hover {
-      background-color: white;
-      color: black;
+    margin-left: 10%;
+
+    .nav-tabs {
       border: none;
     }
+
+    .nav-tabs > li > a:hover {
+      background-color: white;
+      font-weight: 300;
+      color: black;
+      font-size: 1.2em;
+      border-bottom: 5px solid #FF9801;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+    }
+
+    .nav-tabs > li > a:active {
+      border-bottom: 5px solid #FF9801;
+      background-color: white;
+    }
+
+    .nav-tabs > li > a:visited {
+      background-color: white;
+    }
+
     a {
+      font-size: 1.2em;
+      font-weight: 300;
       color: #C1C1C1;
+      margin-right: 50%;
+    }
+  }
+
+  .fa-search {
+    color: #AAAEB1;
+    font-size: 1.4em;
+  }
+
+  .txt-contact {
+    color: #646D6E;
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+
+  .navbar-left {
+    margin-left: 22%;
+  }
+}
+
+.footer {
+  background-color: #273238;
+
+  footer {
+    padding-top: 10px;
+    position: relative;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 35px;
+      padding-bottom: 45px;
+
+      .image-fb {
+        background-image: url("../images/spriteRedes.png");
+        background-repeat: no-repeat;
+        width: 48px;
+        height: 48px;
+        display: block;
+        margin-right: 50px;
+
+        &:hover {
+          background-image: url("../images/spriteRedes.png");
+          background-repeat: no-repeat;
+          background-position: 0px -55px;
+          display: block;
+        }
+      }
+
+      .image-tt {
+        background-image: url("../images/spriteRedes.png");
+        background-repeat: no-repeat;
+        width: 48px;
+        height: 48px;
+        background-position: -106px 0px;
+        display: block;
+
+        &:hover {
+          background-image: url("../images/spriteRedes.png");
+          background-repeat: no-repeat;
+          background-position: -106px -55px;
+          display: block;
+        }
+      }
+    }
+
+    hr {
+      width: 90%;
+    }
+
+    h5 {
+      padding-top: 10px;
+      padding-bottom: 40px;
+      text-align: center;
+      color: white;
+      font-weight: 300;
     }
   }
 }
@@ -105,4 +217,52 @@ body {
       }
     }
   }
+}
+body{
+  background-color: #E3E3E3;
+}
+.tab-stickers {
+
+    margin-top: 30px;
+
+    .shadow{
+      box-shadow: 2px 2px 2px 2px #656060;
+      padding: 0;
+      background-color: #FFFFFF;
+    
+      .sticker{
+        width: 100%;
+        border-bottom: 2px solid #D8D8D8;  
+      } 
+    }
+
+    .gray{
+      color:#848484;
+      padding-left: 15px;
+    }
+
+    .name{
+      font-size: 16px;
+      font-style: bold;
+      padding-top: 15px;
+      padding-left: 15px;
+
+    } 
+      
+    .pay{
+      background-image: url('../images/elementos/spritePayPal.png'); 
+      background-repeat: no-repeat;
+      position: relative;
+      width: 25px;
+      height: 45px;
+      right: 20px;
+      top: 20px;
+    }
+
+    .mg{
+      margin-top: 2%;
+    }
+
+    
+
 }
