@@ -41,7 +41,7 @@ body{
     }
 
     .gray{
-      color:#848484;
+      color:#c7c7c7;
       padding-left: 15px;
     }
 
@@ -57,8 +57,8 @@ body{
       background-image: url('../images/elementos/spritePayPal.png'); 
       background-repeat: no-repeat;
       position: relative;
-      width: 25px;
-      height: 45px;
+      width: 23px;
+      height: 30px;
       right: 20px;
       top: 20px;
     }
@@ -66,7 +66,18 @@ body{
     .mg{
       margin-top: 2%;
     }
+  
+  .efecto:hover {
+    background-color: #39a224;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;  
 
-    
+    .name {
+      color: white
+    }
 
+    .pay {
+      background-position: right top;
+    }
+  }  
 }
