@@ -10,174 +10,141 @@
     <script src="https://use.fontawesome.com/13506fe278.js"></script>
   </head>
   <body>
-    <div class="wrapper-header">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+  <nav class="navbar navbar-fixed-top menu">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">NAV</a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li>
-                <img src="/images/s.png">
-              </li>
-            </ul>
-            <form class="navbar-form navbar-left">
-              <div class="input-group">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                  </button>
-                </span>
-                <input type="text" class="form-control" size="90" placeholder="Search">
-              </div>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="#"><span class="txt-contact">CONTACTO</span></a>
-              </li>
-            </ul>
-          </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="logo">
+              <a href="#"><img src="/images/s.png"></a>
+            </div>  
+          </div> 
         </div>
-      </nav>
-      <div class="tabs-nav">
-        <ul class="nav nav-tabs">
-          <li>
-            <a href="#">Populares</a>
-          </li>
-          <li>
-            <a href="#">Troquelados</a>
-          </li>
-          <li>
-            <a href="#">Geométricos</a>
-          </li>
-          <li>
-            <a href="#">Transferibles</a>
-          </li>
-          <li>
-            <a href="#">Hojas</a>
-          </li>
-        </ul>
+        <div class="col-md-4">
+          <div class="input-group">
+            <span class="glyphicon glyphicon-search input-group-addon" id="basic-addon1" arial-hidden="true"></span>
+            <input type="text" class="form-control" size="50" placeholder="Search" aria-describedby="basic-addon1">
+          </div> 
+        </div>  
+        <div class="col-md-4">
+          <div class="text-center">
+            <span>CONTACTO</span>
+          </div>
+        </div> 
+      </div><!-- CIERRA PRIMER ROW-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="tabs-nav">
+              <ul class="nav nav-tabs text-center">
+                <li>
+                  <a href="#">Populares</a>
+                </li>
+                <li>
+                  <a href="#">Troquelados</a>
+                </li>
+                <li>
+                  <a href="#">Geométricos</a>
+                </li>
+                <li>
+                  <a href="#">Transferibles</a>
+                </li>
+                <li>
+                  <a href="#">Hojas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>   
       </div>
-    </div>    
-    <!--header con imagen-->
+    </div>  
+  </nav>  
+    
     <div class="container">
       <div class="row header">
-        <div class="col-md-8 borde">
+        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 borde">
           <img src="images/carruselFPO.png" class="img-responsive" alt="foto">
         </div>
-        <div class="col-md-4 pad">
+        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 pad">
           <p class="descri">Compra 3 paquetes y ahorra</p>
           <p class="price">$150 <span class="cu">c/u</span></p>
           <p>Cualquier modelo</p>
           <p class="gray">150 piezas - $450</p>
           <div class="row">
-            <div class="col-md-12 text-right">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
               <button class="btncomprar text-center"><div class="crop"><img src="images/spritePayPal.png"></div>COMPRAR</button>
             </div>
           </div>
         </div>
       </div>
     </div>  
-    <!-- pagination -->
-    <div class="text-center site-pagination">
-      <nav aria-label="Page navigation">
-        <ul class="pagination">
-          <li>
-            <a href="#" aria-label="Previous">
-              <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">6</a></li>
-          <li><a href="#">7</a></li>
-          <li><a href="#">8</a></li>
-          <li><a href="#">9</a></li>
-          <li><a href="#">10</a></li>
-          <li><a href="#">Siguiente</a></li>
-          <li>
-            <a href="#" aria-label="Next">
-              <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="footer">
-      <footer>
-        <div>
-          <a href="#" class="image-fb"></a>
-          <a href="#"  class="image-tt"></a>
-        </div>
-        <hr>
-        <h5>Stickers.mx</h5>
-      </footer>
-    </div>
 
     <div class="container tab-stickers">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/postre.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Yummy Lab</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-2">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/cereza.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Miss S</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-2">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/zorro2.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Zorro</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/bigote.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Mr. Mister</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 "> 
+                <div class="col-md-2 col-xs-2 "> 
                   <div class="pay"></div> 
                 </div>
               </div>
@@ -187,64 +154,64 @@
       </div>
 
       <div class="row mg">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/navidad.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Yummy Lab</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/ups.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Miss S</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div> 
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/navidad2.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Zorro</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/tigre.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Mr. Mister</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>  
                 </div>
               </div>
@@ -254,64 +221,64 @@
       </div>
 
       <div class="row mg">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/hola.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Yummy Lab</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>  
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/corona.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Miss S</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                  <div class="pay"></div>
                 </div>
               </div>
             </div>  
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/cerveza.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Zorro</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/unicornio.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Mr. Mister</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>  
                 </div>
               </div>
@@ -321,64 +288,64 @@
       </div>
 
       <div class="row mg">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/bebe.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Yummy Lab</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/gato.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Upsi</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                  <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/hipster.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Zorro</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/zombie.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Kitty</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>  
                 </div>
               </div>
@@ -388,64 +355,64 @@
       </div>
 
       <div class="row mg">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/zorro.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">X+ 2016</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/ballena.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Upsi</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                  <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/cafe.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Kitty</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/galleta.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Kitty</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 "> 
+                <div class="col-md-2 col-xs-2 "> 
                   <div class="pay"></div> 
                 </div>
               </div>
@@ -455,64 +422,64 @@
       </div>
 
       <div class="row mg">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/picnic.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Yummy Lab</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/arcoiris.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Miss S</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                  <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/fork.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Zorro</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/dino2.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Mr. Mister</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>  
                 </div>
               </div>
@@ -522,64 +489,64 @@
       </div>
 
       <div class="row mg">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/dino.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Yummy Lab</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>   
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/fantasma.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Upsi</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/dona.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Zorro</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2 col-xs-2 ">
                   <div class="pay"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="caja shadow">
             <img src="images/elementos/zapatos.png" alt="sticker" class="sticker">
             <div class="efecto">
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-10">
                   <p class="name">Kitty</p>
                   <p class="gray">50 piezas - $200</p>
                 </div>
-                <div class="col-md-2 ">  
+                <div class="col-md-2 col-xs-2 ">  
                   <div class="pay"></div>
                 </div>
               </div>
@@ -588,7 +555,40 @@
         </div>
       </div>
 
-
-    </div>    
+    </div>  <!--container --> 
+    <div class="container-fluid">
+      <!-- pagination -->
+      <div class="text-center site-pagination">
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li>
+              <a href="#" aria-label="Previous">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">Siguiente</a></li>
+            <li>
+              <a href="#" aria-label="Next">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer">
+        <footer>
+          <div>
+            <a href="#" class="image-fb"></a>
+            <a href="#"  class="image-tt"></a>
+          </div>
+          <hr>
+          <h5>Stickers.mx</h5>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
